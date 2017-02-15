@@ -1,10 +1,9 @@
 package com.example.janda_000.tourguide;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.TextView;
+import android.widget.TableLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,42 +12,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView food = (TextView) findViewById(R.id.food);
-        TextView beach = (TextView) findViewById(R.id.beach);
-        TextView shopping = (TextView) findViewById(R.id.shopping);
-        TextView museum = (TextView) findViewById(R.id.museum);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        beach.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent beachIntent = new Intent(MainActivity.this, FoodActivity.class);
-                startActivity(beachIntent);
-            }
-        });
+        CategoryAdapter adapter = new CategoryAdapter(getSupportFragmentManager());
 
-        beach.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent beachIntent = new Intent(MainActivity.this, BeachActivity.class);
-                startActivity(beachIntent);
-            }
-        });
+        viewPager.setAdapter(adapter);
 
-        shopping.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent shoppingIntent = new Intent(MainActivity.this, ShoppingActivity.class);
-                startActivity(shoppingIntent);
-            }
-        });
 
-        museum.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                Intent museumIntent = new Intent(MainActivity.this, MuseumActivity.class);
-                startActivity(museumIntent);
-            }
-        });
 
     }
 }
