@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/single_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_light"
+            android:padding="20dp"
+            android:src="@drawable/ic_whatshot_white_48dp" />
+
+        <LinearLayout
+            android:id="@+id/info_item"
+            style="@style/info_item"
+            android:background="@android:color/holo_blue_dark">
+
+                <TextView
+                    android:id="@+id/item_name"
+                    style="@style/place_name"
+                    tools:text="Baco Mercat" />
+
+                <TextView
+                    android:id="@+id/item_address"
+                    style="@style/place_address"
+                    tools:text="6873 Canyon Hill Dr\nRiverside, CA 902506" />
+
+                <TextView
+                    android:id="@+id/item_phone"
+                    style="@style/place_address"
+                    tools:text="(951) 534-3666" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.janda_000.tourguide.MainActivity">
+
+    <TextView
+        android:id="@+id/food"
+        style="@style/category_style"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/food_name" />
+
+    <TextView
+        android:id="@+id/shopping"
+        style="@style/category_style"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/shopping_name" />
+
+    <TextView
+        android:id="@+id/beach"
+        style="@style/category_style"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Beach" />
+
+    <TextView
+        android:id="@+id/museum"
+        style="@style/category_style"
+        android:background="@android:color/holo_red_dark"
+        android:text="Museums" />
+
+
+</LinearLayout>

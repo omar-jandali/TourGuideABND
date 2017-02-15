@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="app_name">TourGuide</string>
+
+    <string name="food_name">Food</string>
+    <string name="shopping_name">Shopping</string>
+    <string name="beach_name">Beach</string>
+    <string name="museum_name">Museum</string>
+
+
+    <string name="food_1_name">Baco Mercat</string>
+    <string name="food_1_address">408 S Main St \nLos Angeles, CA 90013</string>
+    <string name="food_1_phone">(213) 687-8808</string>
+
+    <string name="food_2_name">Maccheroni Republic</string>
+    <string name="food_2_address">332 S Broadway \nLos Angeles, CA 90013</string>
+    <string name="food_2_phone">(213) 346-9725</string>
+
+    <string name="food_3_name">Mex Perú Gipsy</string>
+    <string name="food_3_address">414 E 12th St \nLos Angeles, CA 90015</string>
+    <string name="food_3_phone">(213) 748-1773</string>
+
+    <string name="food_4_name">Wurstküche</string>
+    <string name="food_4_address">800 E 3rd St \nLos Angeles, CA 90013</string>
+    <string name="food_4_phone">(213) 687-4444</string>
+
+    <string name="museum_1_name">Natural History Museum of LA County</string>
+    <string name="museum_1_address"> 900 Exposition Blvd \nLos Angeles, CA 90007</string>
+    <string name="museum_1_phone">(213) 763-3466</string>
+
+    <string name="museum_2_name">LACMA</string>
+    <string name="museum_2_address">5905 Wilshire Blvd \nLos Angeles, CA 90036</string>
+    <string name="museum_2_phone">(323) 857-6000</string>
+
+    <string name="museum_3_name">California Science Center</string>
+    <string name="museum_3_address">700 Exposition Park Dr \nLos Angeles, CA 90037</string>
+    <string name="museum_3_phone">(323) 724-3623</string>
+
+    <string name="museum_4_name">Museum of Contemporary Art, LA</string>
+    <string name="museum_4_address">250 S Grand Ave \nLos Angeles, CA 90012</string>
+    <string name="museum_4_phone">(213) 621-2766</string>
+
+    <string name="beach_1_name">Dockweiler Beach</string>
+    <string name="beach_1_address">12000 Vista Del Mar \nPlaya Del Rey, CA 90293</string>
+    <string name="beach_1_phone">(310) 305-9503</string>
+
+    <string name="beach_2_name">The Venice Beach Boardwalk</string>
+    <string name="beach_2_address">1800 Ocean Front Walk \nVenice, CA 90291</string>
+    <string name="beach_2_phone">(323) 857-6000</string>
+
+    <string name="beach_3_name">Santa Monica Pier</string>
+    <string name="beach_3_address">200 Santa Monica Pier \nSanta Monica, CA 90401</string>
+    <string name="beach_3_phone">(310) 458-8900</string>
+
+    <string name="shopping_1_name">Westfield Century City</string>
+    <string name="shopping_1_address">10250 California Route 2 \nLos Angeles, CA 90067</string>
+    <string name="shopping_1_phone">(310) 277-3898</string>
+
+    <string name="shopping_2_name">Beverly Center</string>
+    <string name="shopping_2_address">8500 Beverly Blvd \nLos Angeles, CA 90048</string>
+    <string name="shopping_2_phone">(310) 854-0070</string>
+
+    <string name="shopping_3_name">The Grove</string>
+    <string name="shopping_3_address">189 The Grove Dr \nLos Angeles, CA 90036</string>
+    <string name="shopping_3_phone">(323) 900-8080</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
