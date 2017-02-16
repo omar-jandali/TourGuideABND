@@ -15,14 +15,13 @@
             android:id="@+id/item_icon"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@android:color/holo_blue_light"
+            android:background="#3F51B5"
             android:padding="20dp"
             android:src="@drawable/ic_whatshot_white_48dp" />
 
         <LinearLayout
             android:id="@+id/info_item"
-            style="@style/info_item"
-            android:background="@android:color/holo_blue_dark">
+            style="@style/info_item">
 
                 <TextView
                     android:id="@+id/item_name"

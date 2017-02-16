@@ -1,5 +1,6 @@
 package com.example.janda_000.tourguide;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -9,8 +10,11 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    public CategoryAdapter(FragmentManager fm) {
+    private Context tgContext;
+
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
+        tgContext = context;
     }
 
     @Override
@@ -30,4 +34,18 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 4;
     }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        if (position == 0){
+            return tgContext.getString(R.string.food_name);
+        } else if (position == 1){
+            return tgContext.getString(R.string.shopping_name);
+        } else if (position == 2){
+            return tgContext.getString(R.string.beach_name);
+        } else {
+            return tgContext.getString(R.string.museum_name);
+        }
+    }
+
 }
